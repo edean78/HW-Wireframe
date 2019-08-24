@@ -11,34 +11,70 @@ header, nav, section, aside, footer {
     background: #ebebeb;
 }
 
-#header, #nav, #section, #aside {
+header {
     text-align: center;
     padding: 10px;
-}
-
-#header, #nav {
     margin-top: 10px;
 }
 
-#section {
-    margin-top: 20px;
-    float: left;
-    width: 500px;
+nav {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
 }
 
-#aside {
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 400px;
-    float: left;
-}
-
-article {
+#article {
     color: #ebebeb;
     background: #777;
+    padding: 10px;
+    margin: 0;
+    margin-top: 25px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+}
+
+section {
+    text-align: center;
+    padding: 10px;
+    width: 495px;
+    margin-top: 20px;
+    float: left;
+}
+
+p.article {
+    color: #ebebeb;
+    background: #777;
+}
+
+h1.section {
+    padding: 20px;
+    margin: 0px 10px 5px 10px;
+}
+
+p.article2 {
+    padding: 20px;
+    margin: 10px 10px 20px 10px;
+}
+
+aside {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 405px;
+    float: left;
+    margin-left: 20px;
+    height: 279.80px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.clearfix {
+    overflow: auto;
 }
