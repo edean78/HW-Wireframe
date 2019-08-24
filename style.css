@@ -7,20 +7,30 @@ body {
     margin: 0 auto;
 }
 
-header, Nav, Section, Aside, Footer {
+header, nav, section, aside, footer {
     background: #ebebeb;
 }
 
-.header {
+#header, #nav, #section, #aside {
     text-align: center;
     padding: 10px;
+}
+
+#header, #nav {
     margin-top: 10px;
 }
 
-.nav {
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
+#section {
+    margin-top: 20px;
+    float: left;
+    width: 500px;
+}
+
+#aside {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    float: left;
 }
 
 article {
